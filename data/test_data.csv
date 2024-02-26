@@ -1,0 +1,11 @@
+tree,tree,tree,.,PN,Desc,Level
+1,.,.,.,PN-0001,Body,1
+,2,.,.,PN-0020,Skin,2
+,2,.,.,PN-0021,Guts,2
+,,3,.,PT-3002,Lung,3
+,2,.,.,PN-0020,Hair,2
+1,.,.,.,PN-0002,Leg,1
+1,.,.,.,PN-0003,Head,1
+,2,.,.,PN-0030,Skull,2
+,,3,.,PT-3002,Eye,3
+,,3,.,PT-3002,Thinky-bits,3
