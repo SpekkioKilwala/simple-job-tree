@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import printMe from './print.js';
 import { testBOM} from './bom.js';
-import { readFile, processCSVData, FileTask } from './fileRead.js';
+import { readFile } from './fileRead.js';
 
 function fileSelector() {
 	const element = document.createElement('div');
@@ -15,10 +15,8 @@ function fileSelector() {
 	return element;
 }
 
-let task = new FileTask(processCSVData)
-
 document.body.appendChild(fileSelector());
-document.getElementById('csvFileInput').addEventListener('change', task);
+document.getElementById('csvFileInput').addEventListener('change', readFile);
 
 // create file selector
 
