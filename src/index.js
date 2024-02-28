@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import printMe from './print.js';
-import { testBOM, readFile } from './bom.js';
+import { testBOM} from './bom.js';
+import { readFile } from './fileRead.js';
 
 function fileSelector() {
 	const element = document.createElement('div');
