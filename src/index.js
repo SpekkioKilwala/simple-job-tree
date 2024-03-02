@@ -1,7 +1,8 @@
 import _ from 'lodash';
 import printMe from './print.js';
 import { testBOM} from './bom.js';
-import { readFileAction, processCSVData, partApply } from './fileRead.js';
+import { readFileAction, processCSVData } from './fileRead.js';
+import { partApply } from './basics.js';
 
 function fileSelector() {
 	const element = document.createElement('div');
