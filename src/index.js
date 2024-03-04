@@ -3,6 +3,7 @@ import printMe from './print.js';
 import { testBOM} from './bom.js';
 import { readFileAction, processCSVData } from './fileRead.js';
 import { partApply } from './basics.js';
+import DataTable from 'datatables.net-dt';
 
 function fileSelector() {
 	const element = document.createElement('div');
