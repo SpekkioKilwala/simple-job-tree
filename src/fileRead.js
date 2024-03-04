@@ -1,7 +1,10 @@
+
+/**
+ * Runs the specified function on the data extractable from the event
+ * @param {function} func 
+ * @param {event} event 
+ */
 function readFileAction(func, event) {
-	// must use partial application on this to get an actual event handler
-	// e.g.
-	// partApply(readFileAction, processCSVData)
 	let file = event.target.files[0];
 
 	let reader = new FileReader();
